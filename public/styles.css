@@ -1,0 +1,219 @@
+body, html {
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+        height: 100%;
+    background-color: #EDDEA4;
+    background-color: #eddea4;
+background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
+    color:red;
+
+  }
+
+
+  p{
+    line-height: 2;
+    font-size: larger;
+    font-family: 'Fira Sans', sans-serif;
+    color : #183642;
+  }
+  h1 {
+    color : #183642;
+    font-size: 6rem;
+      line-height: 2;
+      margin: 100px auto 0 auto;
+      font-family: 'Fira Sans', sans-serif;
+
+      /* font-family: 'Ubuntu', sans-serif; */
+    
+    }
+    h2 {
+      color : #183642;
+      font-size: 4rem;
+      line-height: 2;
+      margin: 100px auto 0 auto;
+      font-family: 'Fira Sans', sans-serif;
+
+      /* font-family: 'Ubuntu', sans-serif; */
+    
+    }
+
+  .header-text{
+    font-family: 'Fira Sans', sans-serif;
+    /* background: rgb(0, 0, 0); /* fallback color */
+    /* background: rgba(0, 0, 0, 0.7); */ 
+    top:25%;
+    left:50%;
+    padding: 10px; 
+    color: black;
+    font-size: 4rem;
+    line-height: 2;
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+  }
+
+
+  .header-credit{
+    font-family: 'Fira Sans', sans-serif;
+    /* background: rgb(0, 0, 0); /* fallback color */
+    /* background: rgba(0, 0, 0, 0.7); */ 
+    top:95%;
+    left:13%;
+    padding: 10px; 
+    color: white;
+    font-size: 2rem;
+    line-height: 2;
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+  }
+  /* .header-photo{
+    background-image: url("imgs/budapest.jpg"); 
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+  } */
+
+
+  .nav-container{
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+
+  }
+  .tabTop{
+    text-align: center;
+    /* margin-left: 35%; */
+    margin-top: 2%;
+    margin-bottom:2%;
+    /* color : #183642; */
+
+  }
+
+  .tabTop > a {
+    color:black;
+    border-bottom-color: transparent;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.5rem;
+
+  }
+
+
+  .navItem{
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 2%;
+    padding: 0 10px 0 10px;
+    border-bottom-color: transparent;
+  
+  }
+  
+
+
+  .top-container {
+
+  background-color: #BEC5AD; 
+  position: relative;
+  padding-top: 200px;
+  text-align: center;
+}
+
+.navStyle{
+  color : #183642;
+  font-family: 'Fira Sans', sans-serif;
+
+}
+
+.introImg{
+    height: 60%;
+    width: 60%;
+    border-radius: 15%;
+    float: left;
+    padding-right: 25px;
+
+}
+
+hr{
+
+    border: dotted #EAF6F6 6px;
+    width: 10%;
+    border-bottom: none;
+    margin: 100px auto;
+  
+  }
+  
+
+  .skill-row {
+    width: 50%;
+    margin:  100px auto 100px auto;
+    text-align: left;
+  
+  }
+
+  .dev-row {
+    width: 50%;
+    margin:  100px auto 100px auto;
+    text-align: left;
+  
+  }
+
+  .code-img{
+    width:25%;
+    float: left;
+    margin: auto 30px auto auto;
+
+    transform: translateZ(1,1);
+    -webkit-transform: translateZ(1,1);
+-moz-transform: translateZ(1,1);
+-ms-transform: translateZ(1,1);
+-o-transform: translateZ(1,1);
+    transition:.3s;
+    
+
+  }
+  /* .code-img:hover{
+   position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999; 
+  } */
+
+  .map-img{
+    margin-top: 15px;;
+    width: 100%;
+    border-radius: 5%;
+
+  }
+  .io-img{
+    width:50%;
+    float: left;
+    margin: auto 30px auto auto;
+  }
+
+  .travel-img{
+    width:25%;
+    float: right;
+    margin: auto 30px auto 30px;
+  }
+
+  .details-container{
+    margin-top: 5%;
+  }
+
+.btmIcons{
+  padding-right: 15px;
+}
+
+.footer{
+  margin-bottom: 30px;
+}
+
+
+.pin-icon{
+  height:8%;
+  width:8%;
+}
